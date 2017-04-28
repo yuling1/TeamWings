@@ -1,0 +1,16 @@
+﻿@model List<bys.training.teamWings.Models.MemberInfo>
+<div class="frame">
+    @foreach (var member in Model)
+    {
+        <div class="member">
+            <a href=@member.DetailLink>
+                <img src=@member.HeadImg class="member_HeadImg" />
+                <br />
+                <span> @member.MemberName</span>
+            </a>
+        </div>
+    }
+    <div class="teamInroduction">
+        <span>Team Introduction:</span>
+    </div>
+</div>

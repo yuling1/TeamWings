@@ -1,0 +1,31 @@
+﻿@model bys.training.teamWings.Models.MemberDetail
+<div class="frame">
+    <div class="relatedImg">
+        <img class="relatedImg_Img" src=@Model.RelatedImg />
+    </div>
+    <div class="line">
+        <svg width="400px" height="500px" viewBox="0 0 400 500">
+            <!-- rx and ry equal, increasing -->
+            <polygon points="0,0 50,0 350,500 300,500"
+                     style="fill: #bebebe; stroke: none;" />
+        </svg>
+    </div>
+    <div class="introduction">
+        <div class="introduction_text">
+            <span>Name:</span><label>@Model.MemberName</label>
+            <br />
+            <span>Sex:</span><label>@Model.Sex</label>
+            <br />
+            <span>Age:</span><label>@Model.Age</label>
+            <br />
+            <span>Specialty:</span><label>@Model.Specialty</label>
+            <br />
+            <span>Hobby:</span><label>@Model.Hobby</label>
+            <br />
+        </div>
+        <div class="picture">
+            <img src=@Model.FullImg />
+        </div>
+  
+    </div>
+</div>

@@ -1,0 +1,35 @@
+﻿.line {
+    float: left;
+    margin-left: -50px;
+}
+
+.introduction {
+    float: left;
+    margin-left: 550px;
+    margin-top: -550px;
+    /*margin-left:800px;*/
+}
+
+.introduction_text {
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.picture {
+    float: left;
+    width: 150px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.relatedImg {
+    float: left;
+    margin-top: 200px;
+}
+
+.relatedImg_Img {
+    width: 350px;
+    /*height:150px;*/
+}
